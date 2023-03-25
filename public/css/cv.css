@@ -1,0 +1,205 @@
+:root{
+    --green: #009688;
+    --grey:rgb(224,224,224);
+    --white: white;
+    --textcolor:#7C7C7C
+}
+ion-icon{
+    color: var(--green);
+    padding: 0 1rem;
+}
+
+body{
+    background-color: var(--grey);
+}
+
+.separator{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1rem;
+    border: none;
+    border-bottom: 1px solid rgb(160, 160, 160);
+}
+.cv{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 2em;
+}
+
+.information{
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.information-person,
+.hobbies{
+    width: 30vw;
+    padding: 0 0 1rem 0;
+    background-color: var(--white);
+}
+
+
+.presentation{
+    position:relative;
+    margin: auto;
+}
+
+.presentation--photo-profil{
+    width:100%;
+    border-radius: 8px;
+}
+
+.presentation--name{
+    position: absolute;
+    font-size: 1.5rem;
+    left:0.3rem;
+    bottom: 0.001rem;
+    color:var(--white)
+}
+
+.skills,
+.language,
+.head-title{
+    color: var(--green);
+
+}
+
+.head-title{
+    font-size: 1.8rem;
+}
+
+.skills-item,
+.language-item{
+    padding: 0 1rem;
+}
+
+.description--item,
+.skills-item--name,
+.language-item--name{
+    color: var(--textcolor);
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+.skills-item--progress-container,
+.language-item--progress-container{
+    width: 100%;
+    height: 1.5em;
+    border-radius: 16px;
+    position: relative;
+    background-color: var(--grey)
+}
+
+.skills-item--progress-bar,
+.language-item--progress-bar{
+    background-color: var(--green);
+    height: 100%;
+    border-radius: 16px;
+    position: absolute;
+    line-height: inherit;
+}
+
+.skills-item--progress-bar-js{
+    width:80%;
+}
+.skills-item--progress-bar-njs,
+.skills-item--progress-bar-pl,
+.language-item--progress-bar-english{
+    width:60%;
+}
+.skills-item--progress-bar-hc{
+    width:50%;
+}
+
+.skills-item--progress-bar-git,
+.language-item--progress-bar-tamil{
+    width:40%;
+}
+.skills-item--progress-text,
+.language-item--progress-text{
+    position: relative;
+    bottom: 0.75rem;
+    text-align: center;
+    color: white;
+}
+
+.language-item--progress-bar-french{
+    width:90%;
+}
+
+.language-item--progress-bar-hangul{
+    width:30%
+}
+
+.hobbies{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.hobbies-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.hobbies-item{
+    width:10rem;
+}
+
+.experience,
+.formation{
+    height:100%;
+    width: 68vw;
+    color: var(--textcolor);
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+.experience-pro,
+.experience-other{
+    background-color: var(--white);
+    margin-bottom: 1rem;
+}
+
+.pro-resume,
+.other-resume,
+.formation-item{
+    padding: 1rem;
+    background-color: var(--white);
+}
+
+.pro-resume--title,
+.pro-resume--synopsis,
+.other-resume--title,
+.other-resume--synopsis,
+.formation-item--date{
+    padding-left: 1rem;
+}
+
+.pro-resume--synopsis,
+.other-resume--synopsis,
+.formation-item--synopsis{
+    padding-left: 2rem;
+}
+
+.footer{
+    height: 20vh;
+    width: 100%;
+    margin-top: 1rem;
+    background-color: var(--green);
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.icon-footer{
+    color: white;
+    font-size: 64px;
+    padding-top: 1rem;
+}
