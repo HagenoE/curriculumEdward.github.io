@@ -38,9 +38,12 @@ body{
 .information-person,
 .hobbies{
     width: 30vw;
-    padding: 0 0 1rem 0;
+    padding-bottom:1rem;
+    margin-bottom: 1rem;
     background-color: var(--white);
+    border-radius: 16px;
 }
+
 
 
 .presentation{
@@ -151,21 +154,21 @@ body{
     width:10rem;
 }
 
-.experience,
-.formation{
+.experience{
     height:100%;
     width: 68vw;
     color: var(--textcolor);
     display:flex;
     flex-direction: column;
-    justify-content: space-between;
-    
-    
+    justify-content: space-between; 
 }
+
 .experience-pro,
-.experience-other{
+.experience-other,
+.formation{
     background-color: var(--white);
     margin-bottom: 1rem;
+    border-radius: 16px;
 }
 
 .pro-resume,
@@ -173,6 +176,7 @@ body{
 .formation-item{
     padding: 1rem;
     background-color: var(--white);
+    border-radius: 16px;
 }
 
 .pro-resume--title,
@@ -203,3 +207,31 @@ body{
     font-size: 64px;
     padding-top: 1rem;
 }
+
+/* Ajout media queries pour ecran de 600px ou moins */
+
+/* @media (min-width:200px max-width:400px) */
+
+@media screen and (max-width: 600px) {
+
+    .information{
+    width:70vw;
+    margin-left: 2em ;
+    }
+
+    .experience{
+        width:70vw;
+        margin-left: 2em ;
+
+    }
+
+    .information-person,
+    .hobbies{
+        width:100%; 
+    }
+    .presentation--name{
+        font-size: 0.9em;
+    }
+}
+
+/* todo ecran de moin de 300px ecran en 600 et 1300 */
