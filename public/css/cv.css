@@ -207,7 +207,6 @@ body{
     font-size: 64px;
     padding-top: 1rem;
 }
-
 /* Ajout media queries pour ecran de 600px ou moins */
 
 /* @media (min-width:200px max-width:400px) */
@@ -233,5 +232,3 @@ body{
         font-size: 0.9em;
     }
 }
-
-/* todo ecran de moin de 300px ecran en 600 et 1300 */
